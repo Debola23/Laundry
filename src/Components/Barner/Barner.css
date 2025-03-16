@@ -1,0 +1,56 @@
+.barner{
+    margin-top: 6rem;
+}
+.bar1 , .bar2{
+  border-right: 1px solid #e0e0e0;
+  padding-right: 1rem;
+}
+.bt{
+  font-size: 2.5rem;
+}
+
+
+
+@media (max-width: 1040px) {
+  .barner {
+    margin-top: 6rem;
+  }
+  #bner{
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .bar1 , .bar2{
+    border-right: 0px;
+    padding-right: 0px;
+  }
+  .values{
+    height: auto;
+  }
+}
+@media (max-width: 840px) {
+    .barner {
+        margin-top: 6rem;
+      }
+      .bar1 , .bar2 , .bar3{
+        border-right: 0px;
+        text-align: center;
+      }
+}
+@media (max-width: 800px) {
+  .barner {
+    margin-top: 6rem;
+  }
+}
+@media (max-width: 440px) {
+  .pt{
+    text-align: center;
+  }
+}
+@media (max-width: 440px) {
+  .barner {
+    margin-top: 6rem;
+  }
+  #bnerH{
+    padding: 6px;
+  }
+}

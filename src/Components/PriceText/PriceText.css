@@ -1,0 +1,17 @@
+.prc{
+    padding: 4rem;
+    overflow: hidden;
+}
+ 
+@media (max-width: 840px) {
+    .poster {
+      margin-top: 6rem;
+      padding-left: 4.5rem;
+      padding-right: 4rem;
+    }
+    .prc {
+      padding: 0.7rem;
+      overflow: hidden;
+    }
+  }
+  

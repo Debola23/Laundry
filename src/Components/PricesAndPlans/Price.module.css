@@ -1,0 +1,61 @@
+.Dtext{
+    text-wrap: balance;
+    text-align: center;
+    margin-top: 2rem;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+
+}
+.priceCard {
+    background: white;
+    width: 40rem;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.priceCard h2 {
+    background: #27ae60;
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+}
+.priceCard ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+.priceCard ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+.priceCard button {
+    width: 100%;
+    padding: 12px;
+    background: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.priceCard button:hover {
+    background: #219150;
+}
+@media (max-width: 540px) {
+    .Dtext{
+        font-size: 14px;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+  
+}

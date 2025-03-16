@@ -1,0 +1,34 @@
+.counter{
+    padding-left: 6rem;
+    padding-right: 6rem;
+    margin-top: 3rem;
+}
+.stats{
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.plus{
+  color: #50C878;
+}
+.statsInfo{
+  font-size: small;
+  color: #2b683f;
+}
+.stats>:nth-child(1){
+  font-size: 1.8rem;
+}
+.stats>:nth-child(2){
+  font-size: 1.8rem;
+}
+.stats>:nth-child(3){
+  font-size: 1.8rem;
+}
+
+
+
+@media (max-width: 500px) {
+ 
+   
+ 
+  }

@@ -1,0 +1,35 @@
+
+ #menu{
+  display: none;
+ }
+ .ar{
+  margin-left: 4px;
+  margin-top: 3px;
+ }
+
+@media (max-width: 1000px) {
+   #login{
+    display: none;
+   }
+   .container{
+    max-width: 56rem;
+   }
+  }
+  @media (max-width: 920px) {
+    .mobilelist{
+      display: none;
+    }
+    #menu1 {
+      display: inline-block;
+    }
+    #mobilelist{
+      display: none;
+    }
+  }
+  @media (max-width: 520px) {
+    p{
+      font-size: 15px;
+      text-align: initial;
+    }
+   
+  }

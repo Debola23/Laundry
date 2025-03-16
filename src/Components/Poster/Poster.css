@@ -1,0 +1,70 @@
+.poster{
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+#pp{
+  color: rgb(239, 238, 238);
+  font-weight: 600;
+  padding-right: 10px;
+}
+.ppbtn{
+  padding: 15px;
+  background: rgb(20, 94, 255);
+  color: white;
+  border-radius: 10px;
+  width: 170px;
+}
+.ppbtn:hover{
+  background-color: #0b3fa7;
+  color: white;
+}
+
+
+
+@media (max-width: 1040px) {
+  .poster {
+    margin-top: 6rem;
+    padding-left: 7.5rem;
+    padding-right: 6rem;
+  }
+}
+
+@media (max-width: 840px) {
+  #pp{
+    padding: 0;
+  }
+    .poster {
+        margin-top: 6rem;
+      }
+      #h1p{
+        font-size: 3rem;
+        font-weight: 800
+       }
+    
+}
+@media (max-width: 800px) {
+  .poster {
+    margin-top: 6rem;
+  
+  }
+}
+@media (max-width: 440px) {
+    .poster {
+      margin-top: 6rem;
+    
+    }
+     #h1p{
+    font-size: 1.775rem;
+    line-height: 2.25rem;
+    text-wrap: inherit;
+     }
+     #pp{
+      font-size: 1rem;
+     
+     }
+     #rBtnn{
+      align-self: center;
+      justify-content: center;
+     }
+   
+  }

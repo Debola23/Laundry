@@ -1,0 +1,34 @@
+
+.hero {
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 30rem; 
+   background: linear-gradient(rgba(8, 144, 241, 0.7), rgba(8, 144, 241, 0.7)), url(/Images/bg.jpg);
+}
+.pbtn{
+   padding: 15px;
+   background-color: #50C878;
+   color: white;
+   border-radius: 10px;
+   width: 170px;
+}
+.pbtn:hover{
+   background-color: #206337;
+   color: white;
+   transition: 0.5s;
+}
+
+  @media (max-width: 1040px) {
+    
+  
+ }
+   @media (max-width: 920px) {
+  
+ 
+}
+   @media (max-width: 420px) {
+ 
+   
+}
+ 
